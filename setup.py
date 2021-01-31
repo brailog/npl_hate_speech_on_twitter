@@ -8,7 +8,7 @@ setup(
         '': 'source',
     },
     description='',
-    version='1.0.0',
+    version='1.0.1',
     author='Gabriel Ramos',
     install_requires=[
         "matplotlib == 3.3.4",
