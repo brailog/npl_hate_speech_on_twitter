@@ -7,17 +7,10 @@ from tweepy.error import TweepError
 from time import sleep
 from bcolor import bcolors
 
-<<<<<<< HEAD
 ckey="-"
 csecret="-"
 atoken="-"
 asecret="-"
-=======
-ckey="yQuXSscTQvVm2wZ8g3e8tYJrE"
-csecret="GVky1dWPwyFz0eOo4JGx4TYG5aB7XkgGcoLBnntAV1KkoZkX9z"
-atoken="2555813954-k0L7QV7ds9yuxm5vdUnr0yFhhZkEXX3dZtUKnpc"
-asecret="vB3BZplnbCq9UdRbq1NUUJqtsOr2EnzVoiQ6scLw7WNJJ"
->>>>>>> 513314e0b116c9d3918009aca765e2aefc3e6c4d
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
