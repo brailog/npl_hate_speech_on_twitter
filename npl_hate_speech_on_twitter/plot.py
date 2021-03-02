@@ -19,7 +19,7 @@ def animate(i):
     y = 0
     z = 0
 
-    for l in lines[-200:]:
+    for l in lines:
         if "1" in l:
             x += 1
             values[2] = x
@@ -32,6 +32,6 @@ def animate(i):
     print(sum(values))
     print(values)
     ax1.clear()
-    ax1.bar(name, values)
+    ax1.scatter(name, values)
 ani = animation.FuncAnimation(fig, animate, interval=1000)
 plt.show()
